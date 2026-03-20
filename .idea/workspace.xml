@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d458ceb8-a2e0-481f-9660-0ff5f8610f0f" name="Changes" comment="Camera change&#10;&#10;2.1 Længere ude skal heller ikke for tæt" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Camera-FIx" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sim8mis&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sim8mis/1-semester-spil-projekt.git&quot;,
+    &quot;accountId&quot;: &quot;78e56d79-9f90-4c40-8895-9b3243e67c34&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3BCpMVEnRRdt04SmqttaTtnR9w4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Multimediedesign Zealand\Kode\1-semester-spil-projekt\1-sem-gametrack-level-2-template\assets\pixilarts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.30387.85" />
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.30387.85" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d458ceb8-a2e0-481f-9660-0ff5f8610f0f" name="Changes" comment="" />
+      <created>1774002858970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774002858970</updated>
+      <workItem from="1774002860167" duration="2319000" />
+      <workItem from="1774005220265" duration="1370000" />
+      <workItem from="1774006669203" duration="1207000" />
+    </task>
+    <task id="LOCAL-00001" summary="Nic nic nic&#10;&#10;Nickelodeon">
+      <option name="closed" value="true" />
+      <created>1774003289408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774003289408</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unchange changes">
+      <option name="closed" value="true" />
+      <created>1774004189144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774004189144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Unchange changes">
+      <option name="closed" value="true" />
+      <created>1774004242134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774004242134</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Camera change&#10;&#10;2.0 tighter, prøver ikke at kunne se forbi skoven">
+      <option name="closed" value="true" />
+      <created>1774006197505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774006197505</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Camera change&#10;&#10;2.1 Længere ude skal heller ikke for tæt">
+      <option name="closed" value="true" />
+      <created>1774006272067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774006272067</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Camera change&#10;&#10;2.1 Længere ude skal heller ikke for tæt">
+      <option name="closed" value="true" />
+      <created>1774006353483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774006353483</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nic nic nic&#10;&#10;Nickelodeon" />
+    <MESSAGE value="Unchange changes" />
+    <MESSAGE value="Camera change&#10;&#10;2.0 tighter, prøver ikke at kunne se forbi skoven" />
+    <MESSAGE value="Camera change&#10;&#10;2.1 Længere ude skal heller ikke for tæt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera change&#10;&#10;2.1 Længere ude skal heller ikke for tæt" />
+  </component>
+</project>
