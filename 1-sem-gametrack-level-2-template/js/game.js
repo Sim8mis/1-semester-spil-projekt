@@ -76,7 +76,7 @@ const state = {
     },
 
     player: {
-        tileX: 0,
+        tileX: 1,
         tileY: 0,
         pixelX: 0,
         pixelY: 0,
