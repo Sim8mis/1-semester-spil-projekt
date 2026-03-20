@@ -77,7 +77,7 @@ const state = {
 
     player: {
         tileX: 1,
-        tileY: 0,
+        tileY: 1,
         pixelX: 0,
         pixelY: 0,
         facing: GAME_CONFIG.player.defaultFacing,
@@ -1898,3 +1898,4 @@ function lerp(start, end, t) {
 function clamp(value, min, max) {
     return Math.max(min, Math.min(max, value));
 }
+
