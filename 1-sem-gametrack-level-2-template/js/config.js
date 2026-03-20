@@ -14,8 +14,8 @@ export const GAME_CONFIG = {
     // Camera size is in pixels.
     // Smaller values feel more zoomed in.
     camera: {
-        widthPx: 160,
-        heightPx: 128,
+        widthPx: 200,
+        heightPx: 140,
     },
 
     // Player setup.
