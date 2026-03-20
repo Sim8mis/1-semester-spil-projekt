@@ -76,8 +76,8 @@ const state = {
     },
 
     player: {
-        tileX: 1,
-        tileY: 1,
+        tileX: 0,
+        tileY: 0,
         pixelX: 0,
         pixelY: 0,
         facing: GAME_CONFIG.player.defaultFacing,
