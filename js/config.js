@@ -55,9 +55,9 @@ export const GAME_CONFIG = {
 
     // Demon setup.
     demon: {
-        startTile: { x: 16, y: 13 },
+        startTile: { x: 2, y: 2 },
         moveDurationMs: 300,
-        defaultFacing: "down", // Row 0 is facing "down/front"
+        defaultFacing: "right", // Row 0 is facing "down/front"
         spriteSheetSrc: "assets/sprites/demon_sheet.png",
         frameWidth: 32, // Ensure this matches the width of one "cell"
         frameHeight: 32,
