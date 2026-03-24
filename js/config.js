@@ -96,7 +96,7 @@ export const GAME_CONFIG = {
         { x1: 10, y1: 39, x: 28, y2: 39 },
         { x1: 28, y1: 32, x2: 28, y2: 39 },
         { x1: 28, y1: 0, x2: 28, y2: 30 },
-        { x1: 9, y1: 20, x2: 28, y2: 30 },
+        { x1: 9, y1: 31, x2: 23, y2: 31 },
     ],
 
     // Triggers are the main way to build gameplay.
