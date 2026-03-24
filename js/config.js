@@ -44,12 +44,10 @@ export const GAME_CONFIG = {
     // { scope: "items", key: "coin", op: ">=", value: 1 }
     // { scope: "stats", key: "health", op: "<=", value: 2 }
     playerState: {
-        items: {
-            coin: 0,
-        },
         stats: {
             health: 3,
             strength: 1,
+            EXP: 0,
         },
     },
 
@@ -189,8 +187,8 @@ export const GAME_CONFIG = {
                     soundKey: "EXPpickup",
                 },
                 {
-                    kind: "giveItem",
-                    itemKey: "coin",
+                    kind: "changeStat",
+                    statKey: "EXP",
                     amount: 1,
                 },
             ],
@@ -244,8 +242,8 @@ export const GAME_CONFIG = {
                     soundKey: "EXPpickup",
                 },
                 {
-                    kind: "giveItem",
-                    itemKey: "coin",
+                    kind: "changeStat",
+                    statKey: "EXP",
                     amount: 1,
                 },
             ],
