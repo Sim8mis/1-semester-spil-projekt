@@ -57,18 +57,16 @@ export const GAME_CONFIG = {
     demon: {
         startTile: { x: 16, y: 13 },
         moveDurationMs: 300,
-        defaultFacing: "right",
+        defaultFacing: "down", // Row 0 is facing "down/front"
         spriteSheetSrc: "assets/sprites/demon_sheet.png",
-        frameWidth: 32,
+        frameWidth: 32, // Ensure this matches the width of one "cell"
         frameHeight: 32,
 
-        // Direction rows in the sprite sheet.
-        // Frames can stay at 1 if you do not want animation.
         directions: {
-            up: { row: 0, frames: 3 },
-            down: { row: 1, frames: 4 },
-            left: { row: 2, frames: 3 },
-            right: { row: 3, frames: 3 },
+            down:  { row: 0, frames: 4 }, // Front-facing
+            up:    { row: 1, frames: 4 }, // Back-facing
+            left:  { row: 2, frames: 4 }, // Left-facing
+            right: { row: 3, frames: 4 }, // Right-facing
         },
     },
 
