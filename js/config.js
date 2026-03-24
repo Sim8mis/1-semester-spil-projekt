@@ -157,14 +157,16 @@ export const GAME_CONFIG = {
         {
             id: "demon_npc",
             type: "onInteractCell",
-            x: 16,
-            y: 13,
+            x: 2,
+            y: 2,
             isSolid: true,
             sprite: {
                 src: "assets/sprites/demon_sheet.png",
                 frames: 4,
-                speed: 150, // This controls the "idle" animation speed
-                row: 2      // Row 2 is front-facing in your sprite sheet
+                speed: 300, // This controls the "idle" animation speed
+                row: 3,      // Row 2 is front-facing in your sprite sheet
+                frameWidth: 32, // Ensure this matches the width of one "cell"
+                frameHeight: 32,
             },
             actions: [
                 {
