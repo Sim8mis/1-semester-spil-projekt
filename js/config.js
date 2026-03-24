@@ -142,11 +142,11 @@ export const GAME_CONFIG = {
             x: 1,
             y: 2,
             once: true,
-            sprite: "assets/sprites/coin.gif",
+            sprite: "assets/sprites/Exp point.gif",
             actions: [
                 {
                     kind: "playSound",
-                    soundKey: "pickup",
+                    soundKey: "EXPpickup",
                 },
                 {
                     kind: "giveItem",
@@ -197,11 +197,11 @@ export const GAME_CONFIG = {
             x: 1,
             y: 6,
             once: true,
-            sprite: "assets/sprites/coin.gif",
+            sprite: "assets/sprites/Exp point.gif",
             actions: [
                 {
                     kind: "playSound",
-                    soundKey: "pickup",
+                    soundKey: "EXPpickup",
                 },
                 {
                     kind: "giveItem",
