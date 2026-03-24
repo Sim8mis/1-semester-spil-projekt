@@ -70,6 +70,7 @@ export const GAME_CONFIG = {
         pickup: "assets/sfx/pickup.wav",
         teleport: "assets/sfx/teleport.wav",
         ui_open_modal: "assets/sfx/interact.wav",
+        EXPpickup: "assets/sfx/EXPpickup.wav",
     },
 
     // Non-walkable cells.
@@ -142,11 +143,11 @@ export const GAME_CONFIG = {
             x: 1,
             y: 2,
             once: true,
-            sprite: "assets/sprites/coin.gif",
+            sprite: "assets/sprites/Exp point.gif",
             actions: [
                 {
                     kind: "playSound",
-                    soundKey: "pickup",
+                    soundKey: "EXPpickup",
                 },
                 {
                     kind: "giveItem",
@@ -197,11 +198,11 @@ export const GAME_CONFIG = {
             x: 1,
             y: 6,
             once: true,
-            sprite: "assets/sprites/coin.gif",
+            sprite: "assets/sprites/Exp point.gif",
             actions: [
                 {
                     kind: "playSound",
-                    soundKey: "pickup",
+                    soundKey: "EXPpickup",
                 },
                 {
                     kind: "giveItem",
