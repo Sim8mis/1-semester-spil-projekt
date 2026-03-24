@@ -146,7 +146,7 @@ export const GAME_CONFIG = {
             actions: [
                 {
                     kind: "playSound",
-                    soundKey: "EXPpickup",
+                    soundKey: "EXPpickup.wav",
                 },
                 {
                     kind: "giveItem",
