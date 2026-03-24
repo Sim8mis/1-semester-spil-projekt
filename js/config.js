@@ -158,20 +158,38 @@ export const GAME_CONFIG = {
             x: 22,
             y: 7,
             isSolid: true,
+            once: true,
             sprite: {
                 src: "assets/sprites/demon_sheet.png",
                 frames: 4,
-                speed: 300, // This controls the "idle" animation speed
-                row: 3,      // Row 2 is front-facing in your sprite sheet
-                frameWidth: 32, // Ensure this matches the width of one "cell"
-                frameHeight: 32,
+                speed: 300,
+                row: 1,
             },
             actions: [
                 {
                     kind: "openModalText",
-                    title: "Demon",
-                    text: "You dare approach me? Bring me 5 coins if you wish to pass.",
+                    title: "Demon's Curse",
+                    text: "The demon drains your life force... but you may now pass.",
                 },
+                {
+                    kind: "changeStat",
+                    statKey: "health",
+                    amount: -2,
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 3,
+                },
+                {
+                    kind: "makePassable",
+                    passableSprite: null,
+
+                },
+                {
+                    kind: "playSound",
+                    soundKey: "interact",
+                }
             ],
         },
         {
