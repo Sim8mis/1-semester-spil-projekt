@@ -53,6 +53,25 @@ export const GAME_CONFIG = {
         },
     },
 
+    // Demon setup.
+    demon: {
+        startTile: { x: 16, y: 13 },
+        moveDurationMs: 300,
+        defaultFacing: "right",
+        spriteSheetSrc: "assets/sprites/demon_sheet.png",
+        frameWidth: 32,
+        frameHeight: 32,
+
+        // Direction rows in the sprite sheet.
+        // Frames can stay at 1 if you do not want animation.
+        directions: {
+            up: { row: 0, frames: 3 },
+            down: { row: 1, frames: 4 },
+            left: { row: 2, frames: 3 },
+            right: { row: 3, frames: 3 },
+        },
+    },
+
     // Event -> sound key mapping.
     // These are built-in engine events.
     audioEvents: {
