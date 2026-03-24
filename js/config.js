@@ -55,7 +55,7 @@ export const GAME_CONFIG = {
 
     // Demon setup.
     demon: {
-        startTile: { x: 2, y: 2 },
+        startTile: { x: 22, y: 7 },
         moveDurationMs: 300,
         defaultFacing: "right", // Row 0 is facing "down/front"
         spriteSheetSrc: "assets/sprites/demon_sheet.png",
@@ -157,8 +157,8 @@ export const GAME_CONFIG = {
         {
             id: "demon_npc",
             type: "onInteractCell",
-            x: 2,
-            y: 2,
+            x: 22,
+            y: 7,
             isSolid: true,
             sprite: {
                 src: "assets/sprites/demon_sheet.png",
