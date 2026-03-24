@@ -70,6 +70,7 @@ export const GAME_CONFIG = {
         pickup: "assets/sfx/pickup.wav",
         teleport: "assets/sfx/teleport.wav",
         ui_open_modal: "assets/sfx/interact.wav",
+        EXPpickup: "assets/sfx/EXPpickup.wav",
     },
 
     // Non-walkable cells.
@@ -146,7 +147,7 @@ export const GAME_CONFIG = {
             actions: [
                 {
                     kind: "playSound",
-                    soundKey: "EXPpickup.wav",
+                    soundKey: "EXPpickup",
                 },
                 {
                     kind: "giveItem",
