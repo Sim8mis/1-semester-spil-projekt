@@ -155,6 +155,26 @@ export const GAME_CONFIG = {
     // { kind: "makePassable", passableSprite: null }
     triggers: [
         {
+            id: "demon_npc",
+            type: "onInteractCell",
+            x: 16,
+            y: 13,
+            isSolid: true,
+            sprite: {
+                src: "assets/sprites/demon_sheet.png",
+                frames: 4,
+                speed: 150, // This controls the "idle" animation speed
+                row: 2      // Row 2 is front-facing in your sprite sheet
+            },
+            actions: [
+                {
+                    kind: "openModalText",
+                    title: "Demon",
+                    text: "You dare approach me? Bring me 5 coins if you wish to pass.",
+                },
+            ],
+        },
+        {
             id: "coin_1",
             type: "onEnterCell",
             x: 1,
