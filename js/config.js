@@ -45,7 +45,7 @@ export const GAME_CONFIG = {
     // { scope: "stats", key: "health", op: "<=", value: 2 }
     playerState: {
         stats: {
-            health: 3,
+            health: 12,
             strength: 1,
             EXP: 0,
         },
@@ -174,7 +174,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -214,7 +214,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -254,7 +254,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -294,7 +294,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -334,7 +334,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -374,7 +374,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -414,7 +414,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -454,7 +454,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -494,7 +494,47 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 3,
+                },
+                {
+                    kind: "makePassable",
+                    passableSprite: null,
+
+                },
+                {
+                    kind: "playSound",
+                    soundKey: "interact",
+                }
+            ],
+        },
+        {
+            id: "demon_npc_10",
+            type: "onInteractCell",
+            x: 14,
+            y: 27,
+            isSolid: true,
+            once: true,
+            sprite: {
+                src: "assets/sprites/demon_sheet.png",
+                frames: 4,
+                speed: 300,
+                row: 1,
+            },
+            actions: [
+                {
+                    kind: "openModalText",
+                    title: "Demon's Curse",
+                    text: "The demon drains your life force... but you may now pass.",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "health",
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -572,6 +612,44 @@ export const GAME_CONFIG = {
             type: "onEnterCell",
             x: 1,
             y: 6,
+            once: true,
+            sprite: "assets/sprites/Exp point.gif",
+            actions: [
+                {
+                    kind: "playSound",
+                    soundKey: "EXPpickup",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 1,
+                },
+            ],
+        },
+        {
+            id: "coin_3",
+            type: "onEnterCell",
+            x: 16,
+            y: 21,
+            once: true,
+            sprite: "assets/sprites/Exp point.gif",
+            actions: [
+                {
+                    kind: "playSound",
+                    soundKey: "EXPpickup",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 1,
+                },
+            ],
+        },
+        {
+            id: "coin_4",
+            type: "onEnterCell",
+            x: 16,
+            y: 29,
             once: true,
             sprite: "assets/sprites/Exp point.gif",
             actions: [
