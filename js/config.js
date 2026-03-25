@@ -45,7 +45,7 @@ export const GAME_CONFIG = {
     // { scope: "stats", key: "health", op: "<=", value: 2 }
     playerState: {
         stats: {
-            health: 3,
+            health: 12,
             strength: 1,
             EXP: 0,
         },
@@ -174,7 +174,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -214,7 +214,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -254,7 +254,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -294,7 +294,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -334,7 +334,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -374,7 +374,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -414,7 +414,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -454,7 +454,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -494,7 +494,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
@@ -534,7 +534,7 @@ export const GAME_CONFIG = {
                 {
                     kind: "changeStat",
                     statKey: "health",
-                    amount: -2,
+                    amount: -1,
                 },
                 {
                     kind: "changeStat",
