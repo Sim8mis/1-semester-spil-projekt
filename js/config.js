@@ -541,8 +541,8 @@ export const GAME_CONFIG = {
             actions: [
                 {
                     kind: "openModalText",
-                    title: "Wow, did you see that!",
-                    text: "You picked up a coin! It was defined as a trigger in the config.js, try to find it.",
+                    title: "What is this",
+                    text: "This game is an RPG open world game where you play as Boy Knight, the 10 year old son of a powerful warrior, going on his own journey to defeat demons and save lives",
                 },
             ],
         },
@@ -563,8 +563,8 @@ export const GAME_CONFIG = {
             ],
             elseAction: {
                 kind: "openModalText",
-                title: "Oh no!!!",
-                text: "This sign requires at least 2 coins. It says so in the 'conditions' for the trigger for this sign.",
+                title: "The game right now!",
+                text: "Right now, the game has you going around and defeating demons to gain EXP, so that you can get to the next level.",
             },
         },
         {
@@ -583,31 +583,7 @@ export const GAME_CONFIG = {
                     kind: "changeStat",
                     statKey: "EXP",
                     amount: 1,
-                },
-            ],
-        },
-        {
-            id: "key_pink",
-            type: "onInteractCell",
-            x: 1,
-            y: 3,
-            once: true,
-            sprite: "assets/sprites/question.png",
-            actions: [
-                {
-                    kind: "playSound",
-                    soundKey: "pickup",
-                },
-                {
-                    kind: "giveItem",
-                    itemKey: "key_pink",
-                    amount: 1,
-                },
-                {
-                    kind: "openModalText",
-                    title: "Good catch!",
-                    text: "You found the super secret pink key! Now you can open the door with it.",
-                },
+                }
             ],
         },
         {
