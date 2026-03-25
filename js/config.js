@@ -664,5 +664,34 @@ export const GAME_CONFIG = {
                 }
             ],
         },
+        {
+            id: "level_exit_portal",
+            type: "onInteractCell",
+            x: 28,
+            y: 20,
+            isSolid: true,
+            // Condition: Check if player has all 34 EXP
+            conditions: [
+                { scope: "stats", key: "EXP", op: ">=", value: 34 }
+            ],
+            actions: [
+                {
+                    kind: "playSound",
+                    soundKey: "teleport",
+                },
+                {
+                    kind: "openModalText",
+                    title: "LEVEL COMPLETE!",
+                    text: "With the demons vanquished and the town saved, Boy Knight steps into the light... to be continued!",
+                },
+                // Optional: Teleport them back to the start or a 'victory' room
+                // { kind: "teleport", targetX: 1, targetY: 1 }
+            ],
+            elseAction: {
+                kind: "openModalText",
+                title: "Portal Sealed",
+                text: "The town is still being raided by the demons! Save the townsfolk first! (You need 34 EXP to open the portal).",
+            },
+        },
      ],
 };
