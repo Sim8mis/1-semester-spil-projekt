@@ -627,6 +627,44 @@ export const GAME_CONFIG = {
             ],
         },
         {
+            id: "coin_3",
+            type: "onEnterCell",
+            x: 16,
+            y: 21,
+            once: true,
+            sprite: "assets/sprites/Exp point.gif",
+            actions: [
+                {
+                    kind: "playSound",
+                    soundKey: "EXPpickup",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 1,
+                },
+            ],
+        },
+        {
+            id: "coin_4",
+            type: "onEnterCell",
+            x: 16,
+            y: 29,
+            once: true,
+            sprite: "assets/sprites/Exp point.gif",
+            actions: [
+                {
+                    kind: "playSound",
+                    soundKey: "EXPpickup",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 1,
+                },
+            ],
+        },
+        {
             id: "key_pink",
             type: "onInteractCell",
             x: 1,
