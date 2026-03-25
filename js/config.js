@@ -352,57 +352,8 @@ export const GAME_CONFIG = {
                     contentKey: "intro_clip",
                 },
             ],
-        },
-        {
-            id: "portal_left_jump",
-            type: "onEnterCell",
-            x: 8,
-            y: 3,
-            sprite: {
-                src: "assets/sprites/portal_overlay.png",
-                frames: 4,
-                speed: 150,
-            },
-            actions: [
-                {
-                    kind: "playSound",
-                    soundKey: "teleport",
-                },
-                {
-                    kind: "changeStat",
-                    statKey: "health",
-                    amount: -1,
-                },
-                {
-                    kind: "teleport",
-                    targetX: 13,
-                    targetY: 3,
-                    sfx: "teleport",
-                    sprite: {
-                        src: "assets/sprites/portal_action.png",
-                        frames: 4,
-                        speed: 150,
-                    },
-                },
-            ],
-        },
-        {
-            id: "portal_right_jump",
-            type: "onEnterCell",
-            x: 12,
-            y: 3,
-            actions: [
-                {
-                    kind: "playSound",
-                    soundKey: "teleport",
-                },
-                {
-                    kind: "teleport",
-                    targetX: 7,
-                    targetY: 3,
-                    sfx: "teleport",
-                },
-            ],
+
+
         },
     ],
 };
