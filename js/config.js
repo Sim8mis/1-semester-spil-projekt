@@ -153,10 +153,130 @@ export const GAME_CONFIG = {
     // { kind: "makePassable", passableSprite: null }
     triggers: [
         {
-            id: "demon_npc",
+            id: "demon_npc_1",
             type: "onInteractCell",
             x: 22,
             y: 7,
+            isSolid: true,
+            once: true,
+            sprite: {
+                src: "assets/sprites/demon_sheet.png",
+                frames: 4,
+                speed: 300,
+                row: 1,
+            },
+            actions: [
+                {
+                    kind: "openModalText",
+                    title: "Demon's Curse",
+                    text: "The demon drains your life force... but you may now pass.",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "health",
+                    amount: -2,
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 3,
+                },
+                {
+                    kind: "makePassable",
+                    passableSprite: null,
+
+                },
+                {
+                    kind: "playSound",
+                    soundKey: "interact",
+                }
+            ],
+        },
+        {
+            id: "demon_npc_2",
+            type: "onInteractCell",
+            x: 24,
+            y: 30,
+            isSolid: true,
+            once: true,
+            sprite: {
+                src: "assets/sprites/demon_sheet.png",
+                frames: 4,
+                speed: 300,
+                row: 1,
+            },
+            actions: [
+                {
+                    kind: "openModalText",
+                    title: "Demon's Curse",
+                    text: "The demon drains your life force... but you may now pass.",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "health",
+                    amount: -2,
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 3,
+                },
+                {
+                    kind: "makePassable",
+                    passableSprite: null,
+
+                },
+                {
+                    kind: "playSound",
+                    soundKey: "interact",
+                }
+            ],
+        },
+        {
+            id: "demon_npc_3",
+            type: "onInteractCell",
+            x: 25,
+            y: 30,
+            isSolid: true,
+            once: true,
+            sprite: {
+                src: "assets/sprites/demon_sheet.png",
+                frames: 4,
+                speed: 300,
+                row: 1,
+            },
+            actions: [
+                {
+                    kind: "openModalText",
+                    title: "Demon's Curse",
+                    text: "The demon drains your life force... but you may now pass.",
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "health",
+                    amount: -2,
+                },
+                {
+                    kind: "changeStat",
+                    statKey: "EXP",
+                    amount: 3,
+                },
+                {
+                    kind: "makePassable",
+                    passableSprite: null,
+
+                },
+                {
+                    kind: "playSound",
+                    soundKey: "interact",
+                }
+            ],
+        },
+        {
+            id: "demon_npc_4",
+            type: "onInteractCell",
+            x: 26,
+            y: 30,
             isSolid: true,
             once: true,
             sprite: {
